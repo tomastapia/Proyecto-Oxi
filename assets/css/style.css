@@ -23,7 +23,7 @@ body {
     font-size: 16px; /* 1rem = 10px */
     font-family: sans-serif;
 }
-.sombra {
+.sombra:hover {
     box-shadow: 2px 2px 15px 0px rgba(63, 63, 63, 0.41);
 }
 .contenedor {
@@ -45,7 +45,7 @@ h1 {font-size: 3.8rem;margin: 0;}
 h2 {font-size: 2.8rem;margin: 0;}
 h3 {font-size: 1.8rem;margin: 0;}
 a {margin: 0;text-decoration: none;}
-p {margin: 0;}
+p {margin: 0;line-height: 2.5rem;}
 
 /* UTILIDADES */
 .container {
@@ -145,6 +145,7 @@ p {margin: 0;}
 .servicios__item {
     background-color: var(--blanco);
     border-radius: .5rem;
+    transition: box-shadow .2s ease;
 }
 .servicios__imagen {
     width: 100%;
@@ -168,5 +169,33 @@ p {margin: 0;}
 }
 
 /* FORMUARIO */
+
+
+/* FOOTER */
+
+.bg-footer {
+    background-color: var(--grisClaro);
+}
+
+.links__footer{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 7rem;
+    padding: 5rem 3rem;
+    padding-bottom: 20rem;
+}
+
+.link__footer {
+    
+}
+.titulo__footer {
+    margin-bottom: 2rem;
+}
+.sitios__footer {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
 
 
